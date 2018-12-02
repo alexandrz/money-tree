@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   end
 
  
-  spec.add_dependency "ffi"
+  spec.add_dependency "ffi", ">= 1.9.24"
     
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
